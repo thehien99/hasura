@@ -1,1 +1,0 @@
-CREATE TABLE "public"."post" ("id" serial NOT NULL, "title" varchar NOT NULL, "description" varchar NOT NULL, "createAt" timestamptz NOT NULL DEFAULT now(), "updateAt" timestamptz NOT NULL DEFAULT now(), PRIMARY KEY ("id") , UNIQUE ("id"), UNIQUE ("title"), UNIQUE ("description"));

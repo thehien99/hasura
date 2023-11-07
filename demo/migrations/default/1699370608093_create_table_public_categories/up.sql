@@ -1,0 +1,1 @@
+CREATE TABLE "public"."categories" ("id" serial NOT NULL, "price" varchar NOT NULL, "createAt" timestamptz NOT NULL DEFAULT now(), "updateAt" timestamptz NOT NULL DEFAULT now(), PRIMARY KEY ("id") , UNIQUE ("id"), UNIQUE ("price"));
